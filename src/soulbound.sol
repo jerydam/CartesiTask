@@ -50,4 +50,4 @@ contract SoulbondToken is ERC1155, Ownable {
     function hasMinted(address account) external view returns (bool) {
         return hasMintedSoulboundToken[account];
     }
-}
+} 
